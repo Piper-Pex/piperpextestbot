@@ -1,3 +1,5 @@
+#docker run --name chatbot  -d --env TELEGRAM_ACCESS_TOKEN=7887521281:AAHDyoUpCmCjkMoXB4Xh53TZYODxQuUQvwE  --env CHATGPT_ACCESS_TOKEN=ae68d010-92d4-4730-af02-84a20f05b7d1    --env CHATGPT_MODEL_NAME=gpt-4-o-mini            piperpextestbotcontainer:v1     python botchatbot.py 664b158bfab048956367f0600b06fe287b7a9267c1f86c6def9b5e2d25fe31b9
+
 from telegram import Update
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters, CallbackContext)
 import configparser
